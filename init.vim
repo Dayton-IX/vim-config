@@ -20,7 +20,7 @@ Plug 'hrsh7th/nvim-cmp'
 
   " Editorconfig
   Plug 'editorconfig/editorconfig-vim'
-  
+
   " File Explorer with Icons
   Plug 'scrooloose/nerdtree'
   Plug 'ryanoasis/vim-devicons'
@@ -39,7 +39,7 @@ endif
 
 " Theme
 syntax enable
-colorscheme gruvbox 
+colorscheme gruvbox
 
 let g:NERDTreeShowHidden = 1
 let g:NERDTreeMinimalUI = 1
@@ -55,6 +55,7 @@ nnoremap <C-p> :Telescope<CR>
 " open new split panes to right and below
 set splitright
 set splitbelow
+set relativenumber
 
 " turn terminal to normal mode with escape
 tnoremap <Esc> <C-\><C-n>
