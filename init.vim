@@ -8,7 +8,6 @@ call plug#begin("~/.vim/plugged")
   " TypeScript Highlighting
   Plug 'leafgarland/typescript-vim'
   Plug 'peitalin/vim-jsx-typescript'
-  Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
   " Autocomplete
   Plug 'neovim/nvim-lspconfig'
@@ -56,6 +55,7 @@ nnoremap <C-p> :Telescope find_files<CR>
 set splitright
 set splitbelow
 set relativenumber
+set number
 
 " turn terminal to normal mode with escape
 tnoremap <Esc> <C-\><C-n>
